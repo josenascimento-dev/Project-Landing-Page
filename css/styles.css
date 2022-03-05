@@ -1,4 +1,4 @@
-#container {
+#container{
     display: flex;
 }
 
@@ -91,18 +91,30 @@
     color:black;
     transition: all 300ms;
 }
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 #section1{
+    margin-top:10%;
+}
+#section1, #section2{
    display: inline-flex;
+   justify-content: center;
    width: 93%;
    height: 200px;
    box-shadow:0px 0px 5px rgb(207, 207, 207) ;
-   margin-left: 50px;
-   margin-top: 120px;
    height: 470px;
    border-radius: 20px;
+   cursor: pointer;
+   margin-bottom: 25px;
+  
 }
-#section1 .text3{
+
+#section1 .text3,
+#section2 .text3{
     width: 50%;
     padding-left: 100px;
     justify-content: center;
@@ -111,30 +123,45 @@
     
     
 }
-#section1 .text3 h3{
+#section1 .text3 h3,
+#section2 .text3 h3{
     
     font-weight: bold;
     font-size: 30px;
     color:hsl(191deg 51% 15%);
 }
-#section1 .text3 p{
+#section1 .text3 p,
+#section2 .text3 p{
     color: rgb(146, 146, 146);
     font-size: 18px;
     width: 82%;
 }
 
-#section1 .img3{
+#section1 .img3,
+#section2 .img3{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-#section1 .img3 img{
+#section1 .img3 img,
+#section2 .img3 img{
    width:75%;
    height:auto; 
   
 }
+#section1:hover,
+#section2:hover {
+    box-shadow: 0px 0px 10px hsl(322deg 99% 66%);
+    transition: all 300ms;
+}
+#section1:hover .text3 p,
+#section2:hover .text3 p{
+    color: hsl(191deg 51% 15%);
+}
+
+
 
 
 
