@@ -1,3 +1,14 @@
+
+@font-face {
+    font-family: "webSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#webSymbolsRegular') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 #container{
     display: flex;
 }
@@ -9,7 +20,7 @@
 }
 
 #header{
-    background: hsl(194deg 100% 95%);
+    background-image: url("../img/bg-hero-desktop.svg");
     width: 100%;
     height: 680px
     
@@ -160,6 +171,116 @@
 #section2:hover .text3 p{
     color: hsl(191deg 51% 15%);
 }
+#footer{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: hsl(192deg 100% 9%);
+    margin-top: 30% ;
+    flex-direction:column;
+
+}
+ 
+#footer .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction:column;
+    width: 60%;
+    height:280px;
+    box-shadow:0px 0px 5px  hsl(0, 0%, 56%);
+    border-radius: 15px;
+    background-color: white;
+    margin-top: -14%;
+    margin-bottom: 7%;
+}
+#footer .box h2{
+    width: 100%;
+    color: hsl(191deg 51% 15%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+#footer .box .button3{
+    width: 52%;
+    height: 52px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 27px;
+    text-decoration: none;
+    background-color: hsl(322deg 99% 66%);
+    color: white;
+    border-width: 40px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 0px 8px 8px rgb(199, 199, 199);
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+#footer .box .button3:hover{
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: white;
+    color:hsl(191deg 51% 15%);
+    transition: all 300ms;
+}
+#footer ul{
+    list-style: none;
+    line-height: 20px;}
+#footer ul li a{
+    display: block;
+    padding-left: 40px;
+    color: hsl(195deg 37% 87%);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+#footer #information {
+    display:inline-flex;
+    justify-content: center;
+    gap: 0px;
+    color: white;
+    text-decoration: none;
+   
+}
+#footer #information .info1{
+    width: 25%;
+}
+
+#footer #information .info1 ul>li>img{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    height: 17px;
+   
+}
+#footer #information .info2{
+    width: 20%;
+}
+#footer #information .info2 ul li{ 
+    height: 35px;
+}
+#footer #information .info3{
+    width: 20% ;
+    
+}
+#footer #information .info3 ul li{
+    
+    height: 35px;
+}
+#footer #information .info4{
+    width: 25% ;
+   
+}
+#footer #information .info4{
+    
+    height: 35px;
+}
+
+
+
+
 
 
 
