@@ -1,14 +1,3 @@
-
-@font-face {
-    font-family: "webSymbolsRegular";
-    src: url('fonts/websymbols-regular-webfont.eot');
-    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/websymbols-regular-webfont.woff') format('woff'),
-         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
-         url('fonts/websymbols-regular-webfont.svg#webSymbolsRegular') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}
 #container{
     display: flex;
 }
@@ -22,14 +11,14 @@
 #header{
     background-image: url("../img/bg-hero-desktop.svg");
     width: 100%;
-    height: 680px
+    height: 680px;
     
 }
 
 #header .button {
   display: block;
-  width: 12%;
-  height: 30px;
+  width: 15%;
+  height: 32px;
   float: right;
   margin-right: 50px;
   margin-top: 45px;
@@ -42,7 +31,7 @@
   box-shadow: 0px 0px 5px rgb(167, 167, 167);
   text-align: center;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 15px;
   color: black;
   justify-content: center;
 }
@@ -245,38 +234,123 @@
    
 }
 #footer #information .info1{
-    width: 25%;
+    width: 30%;
+    
 }
+#footer #information .info1 p a{
+    padding-right: 45px;
+    
+    
+}
+#footer #information .info1 ul  li .text1:hover a,
+#footer #information .info1 ul  li .text2:hover a,
+#footer #information .info1 ul  li .text3:hover a{
+    font-size: 16px;
+    border: 1px solid hsl(322deg 99% 66%);
+    box-shadow: 0px 0px 3px hsl(322deg 99% 66%);
+    border-radius: 4px; 
+    transition: all 300ms;
+    
+}
+
 
 #footer #information .info1 ul>li>img{
     display: block;
     float: left;
+    padding-top: 2px;
+    padding-left: 2px;
     margin-right: 20px;
     height: 17px;
    
 }
 #footer #information .info2{
-    width: 20%;
+    width: 15%;
 }
 #footer #information .info2 ul li{ 
     height: 35px;
 }
+#footer #information .info2 ul li:hover a{ 
+    font-size: 17px;
+    border: 1px solid hsl(322deg 99% 66%);
+    box-shadow: 0px 0px 3px hsl(322deg 99% 66%);
+    border-radius: 4px; 
+    transition: all 300ms;
+}
 #footer #information .info3{
-    width: 20% ;
-    
+    width: 15% ; 
 }
 #footer #information .info3 ul li{
-    
     height: 35px;
-}
+} 
+#footer #information .info3 ul li:hover a{
+    font-size: 17px;
+    border: 1px solid hsl(322deg 99% 66%);
+    box-shadow: 0px 0px 3px hsl(322deg 99% 66%);
+    border-radius: 4px; 
+    transition: all 300ms;
+} 
+
 #footer #information .info4{
-    width: 25% ;
+    display: inline-flex;
+    justify-content: center;
+    width: 20%;
+    padding-top: 15px;
+    
+}
+
+.icon{
+    margin-right: 20px;
+    
+
+}
+#footer .facebook .icon{
+    
+    height: 32px;
+}
+#footer .facebook .icon:hover{
+    
+    height: 34px;
+    box-shadow: 0px 0px 5px hsl(220deg 45% 36%);;
+    border-radius: 5px;
+    transition: all 400ms; 
+      
+}
+#footer .twitter .icon{
    
+    margin-top: 3px;
+    height: 28px;
 }
-#footer #information .info4{
-    
-    height: 35px;
+#footer .twitter .icon:hover{
+    height: 30px;
+    box-shadow: 0px 0px 5px hsl(206deg 85% 63%);;
+    border-radius: 5px;
+    transition: all 400ms; 
 }
+#footer .instagram .icon{
+    margin-top: 2px;
+    height: 30px;
+}
+#footer .instagram .icon:hover{
+    box-shadow: 0px 0px 5px hsl(351deg 81% 61%);
+    border-radius: 7px;
+    height: 32px;
+    transition: all 400ms; 
+}
+
+
+
+#footer .copy{
+    margin: 20px;
+    width: 22%;
+    align-self: flex-end;
+    padding-top: 40px;
+    padding-right: 20px;
+    color: hsl(195deg 37% 87%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
 
 
 

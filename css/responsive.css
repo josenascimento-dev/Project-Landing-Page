@@ -1,0 +1,19 @@
+@media (max-width:1153px){
+    #header .img2{
+        width: 50%;
+        height: 400px;
+    }
+    #header .text h2{
+        font-size: 38px;
+    }
+    #header .text p{
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 1000px){
+    #header{
+        
+    }
+    
+}
